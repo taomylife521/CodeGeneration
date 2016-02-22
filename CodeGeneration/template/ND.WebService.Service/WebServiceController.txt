@@ -1,0 +1,18 @@
+﻿using ND.WebService.Service.Interceptor;
+using NDFront.Lib.DtoModel.${FileName}.context;
+using NDFront.WebService.Contract.${FileName};
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using ND.WebService.Service;
+using ND.WebService.Service.Interceptor;
+
+namespace ND.WebService.Service.${FileName}
+{
+    public class ${ClassName} : ${InterfaceName}
+    {
+${CoreCode}
+    }
+}

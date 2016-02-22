@@ -1,0 +1,21 @@
+﻿using NDFront.Lib.DtoModel;
+using NDFront.Lib.DtoModel.${FileName}.context;
+using NDFront.Lib.DtoModel.${FileName}.response.baseClass;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ND.Lib.Core.${CoreFolderName}.Executor.inter
+{
+    /// <summary>
+    /// 商圈接口
+    /// </summary>
+    public interface ${InterfaceName}
+    {
+${CoreCode}
+    }
+}
+
+

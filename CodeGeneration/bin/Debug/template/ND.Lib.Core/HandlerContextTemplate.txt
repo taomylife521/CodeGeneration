@@ -1,0 +1,51 @@
+﻿// ***********************************************************************
+// Assembly         : ND.Lib.Core
+// Author           : 北京钱粮科技技术部
+// Created          : 
+//
+// Last Modified By : 
+// Last Modified On : 
+// ***********************************************************************
+// <copyright file="${ClassName}.cs" company=北京钱粮科技技术部"">
+//     Copyright ©  2015
+// </copyright>
+// <summary>此代码由工具自动生成</summary>
+// ***********************************************************************
+using NDFront.Lib.Core.commonCore;
+using NDFront.Lib.Core.${CoreFolderName}.DependencyInjection;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ND.Lib.Core.${CoreFolderName}.handlers
+{
+    public interface ${InterfaceName} : IHandlerContext
+    {
+    }
+
+    public class ${ClassName} : ${InterfaceName}
+    {
+
+        /// <summary>
+        /// 初始化一个新的处理上下文。
+        /// </summary>
+        /// <param name="request">一个请求。</param>
+        /// <exception cref="ArgumentNullException"><paramref name="request"/> 为null。</exception>
+        public ${ClassName}()//HttpRequestBase req
+        {
+            //设置默认的依赖解析器。
+            this.SetDependencyResolver(${HandlerContextDependencyClassName}.Instance);
+        }
+        public IDependencyResolver dependencyResolver
+        {
+            get;
+            set;
+
+        }
+    }
+
+
+
+}

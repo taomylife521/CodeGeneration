@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGeneration", "CodeGeneration\CodeGeneration.csproj", "{9BD4E860-5C34-4460-8663-7261A55C390C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoslynTest", "RoslynTest\RoslynTest.csproj", "{B23495AB-278E-4988-8FC6-10A26F3C6C84}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "NDCodeGenerator", "NDCodeGenerator\NDCodeGenerator.vdproj", "{8A0382BE-42D6-4C98-9B5C-54A2F12EE54C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BD4E860-5C34-4460-8663-7261A55C390C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD4E860-5C34-4460-8663-7261A55C390C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BD4E860-5C34-4460-8663-7261A55C390C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BD4E860-5C34-4460-8663-7261A55C390C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B23495AB-278E-4988-8FC6-10A26F3C6C84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B23495AB-278E-4988-8FC6-10A26F3C6C84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B23495AB-278E-4988-8FC6-10A26F3C6C84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B23495AB-278E-4988-8FC6-10A26F3C6C84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A0382BE-42D6-4C98-9B5C-54A2F12EE54C}.Debug|Any CPU.ActiveCfg = Debug
+		{8A0382BE-42D6-4C98-9B5C-54A2F12EE54C}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

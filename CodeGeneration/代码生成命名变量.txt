@@ -1,0 +1,12 @@
+--通用
+1.${CoreFolderName}:核心文件夹名称 例如：flightCore
+2.${InterfaceName}:接口名
+3.${ClassName}:类名
+4.${FileName}:接口所在文件名称 例如：flight
+5.${CoreCode}:核心代码
+6.${HandlerInterfaceList}:处理接口列表
+7.${HandlerContextDependencyClassName}:处理上下文依赖类名
+8.${ValidatorClassName}:验证器的类名
+9.${PluginType}:插件类型：例如:FlightPlugin
+
+

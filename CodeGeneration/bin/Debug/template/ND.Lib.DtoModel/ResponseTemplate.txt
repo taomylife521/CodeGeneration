@@ -1,0 +1,16 @@
+﻿using NDFront.Lib.DtoModel.${FileName}.response.inter;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.Serialization;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace NDFront.Lib.DtoModel.${FileName}.response.baseClass
+{
+    [DataContract]
+    public class ${ClassName} : ${InterfaceName}
+    {
+        //to do whatever you want
+    }
+}

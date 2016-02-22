@@ -1,0 +1,23 @@
+﻿using FluentValidation;
+using NDFront.Lib.DtoModel.${FileName}.context;
+using NDFront.Lib.DtoModel.validator;
+using ND.Plugin.PluginProvider;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.Serialization;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace NDFront.Lib.DtoModel.${FileName}.validator.contextValidator
+{
+
+    public class ${ValidatorClassName} : ContextBaseValidator<${ClassName}>, IValidatorProvider
+    {
+        public ${ValidatorClassName}()
+        {
+           //to do whatever you want
+        }
+    }
+
+}

@@ -1,0 +1,24 @@
+﻿using ND.Lib.Core.${CoreFolderName}.handlers;
+using ND.Lib.Enums.common;
+using ND.Lib.LibHelper.log;
+using ND.Plugin.PluginProvider;
+using NDFront.Lib.DtoModel;
+using NDFront.Lib.DtoModel.${FileName}.context;
+using NDFront.Lib.DtoModel.${FileName}.response.baseClass;
+using NDFront.Lib.DtoModel.${FileName}.response.inter;
+using NDFront.WebService.Contract.${FileName};
+using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using ND.Lib.LibHelper.extention;
+
+namespace ND.Plugin.DefaultPlugin.HotelPlugin
+{
+    public class ${ClassName} : ${InterfaceName}, IPlugin
+    {
+ ${CoreCode}      
+    }
+}

@@ -1,0 +1,22 @@
+﻿using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using NDFront.Lib.DtoModel.${FileName}.context;
+using NDFront.Lib.DtoModel;
+using NDFront.Lib.DtoModel.${FileName}.response.baseClass;
+using ND.Plugin.PluginProvider;
+using ND.Lib.Core.${CoreFolderName}.Executor.inter;
+
+
+namespace NDFront.Lib.Core.${CoreFolderName}.Executor.impl
+{
+    public class ${ClassName} : ${InterfaceName}
+    {
+
+ ${CoreCode}
+
+    }
+}

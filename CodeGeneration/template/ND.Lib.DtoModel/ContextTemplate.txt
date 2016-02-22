@@ -1,0 +1,22 @@
+﻿using FluentValidation.Attributes;
+using NDFront.Lib.DtoModel.${FileName}.validator.contextValidator;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.Serialization;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace NDFront.Lib.DtoModel.${FileName}.context
+{
+    /// <summary>
+    /// ${ClassName}请求上下文
+    /// </summary>
+    [DataContract]
+    [Validator(typeof(${ValidatorClassName}))]
+    public class ${ClassName} : ContextBase
+    {
+       
+    }
+
+}

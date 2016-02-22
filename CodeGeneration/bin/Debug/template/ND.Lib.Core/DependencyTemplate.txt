@@ -1,0 +1,65 @@
+﻿// ***********************************************************************
+// Assembly         : ND.Lib.Core
+// Author           : 北京钱粮科技技术部
+// Created          : 
+//
+// Last Modified By : 
+// Last Modified On : 
+// ***********************************************************************
+// <copyright file="${ClassName}.cs" company=北京钱粮科技技术部"">
+//     Copyright ©  2015
+// </copyright>
+// <summary>此代码由工具自动生成</summary>
+// ***********************************************************************
+using NDFront.Lib.Core.commonCore;
+using NDFront.Lib.Core.${CoreFolderName}.Executor.impl;
+using ND.Lib.Core.${CoreFolderName}.Executor.inter;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ND.Lib.Core.${CoreFolderName}.DependencyInjection
+{
+    public class ${ClassName} : IDependencyResolver
+    {
+        private static readonly IDependencyResolver DependencyResolver;//默认依赖对象
+
+${CoreCode}        
+
+        /// <summary>
+        /// 一个全局的依赖解析器实例。
+        /// </summary>
+        public static IDependencyResolver Instance { get { return DependencyResolver; } }
+        static ${ClassName}()
+        {
+            DependencyResolver = new ${ClassName}();
+        }
+        public object GetService(Type serviceType)
+        {
+            return !ServiceDictionary.ContainsKey(serviceType) ? null : ServiceDictionary[serviceType]();
+        }
+
+        private ${ClassName}()
+        { }
+        public IEnumerable<object> GetServices(Type serviceType)
+        {
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        /// 创建一个新的 <see cref="${ClassName}"/> 依赖解析器。
+        /// </summary>
+        /// <returns>依赖解析器。</returns>
+        public static IDependencyResolver New()
+        {
+            return new ${ClassName}();
+        }
+
+        public T GetService<T>() where T : class
+        {
+            return !ServiceDictionary.ContainsKey(typeof(T)) ? null : (T)ServiceDictionary[typeof(T)]();
+        }
+    }
+}
